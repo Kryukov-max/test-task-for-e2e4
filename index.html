@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/afdc7aa636.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <meta name="Description" content="Тестовое задание для e2e4">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <div class="main__info">
+            <h3 class="main__h3">Регистрация</h3>
+            <br>
+            <form class="formWithValidation">
+                <div class="main__wrapper"><p class="main__text">Имя&nbsp;<span class="main__color">*</span></p>
+                    <input type="firstName" class="firstName field" placeholder=Иван></div>
+
+                <div class="main__wrapper"><p class="main__text">Фамилия&nbsp;<span class="main__color">*</span></p>
+                    &nbsp;<input type=”lastName” class="lastName field" placeholder=Иванов></div>
+                
+                    <div class="main__wrapper"><p class="main__text">Почта&nbsp;<span class="main__color">*</span></p>
+                    &nbsp;<input type=”email” class="email field" placeholder=mail@mail.ru></div>
+                
+                    <div class="main__wrapper"> <p class="main__text">Пороль&nbsp;<span class="main__color">*</span></p>
+                    &nbsp;<input type="password" class="password field" placeholder=Пороль></div>
+                
+                    <div class="main__wrapper"><p class="main__text">Подтвердите пороль&nbsp;<span class="main__color">*</span></p>&nbsp;
+                    &nbsp;<input type="password" class="passwordConfirmation field" placeholder=Пороль></div>
+                
+                    <div class="main__wrapper"> <p class="main__text">Дата рождения&nbsp;<span class="main__color">*</span></p>
+                    &nbsp;<input type=”data” class="data field" placeholder=02/11/2021></div>
+                    <div class="main__line"></div>
+                
+                    <div class="main__button"><input class="main__validateButton validateButton"  type="submit" value="Отправить"/>
+                </div>
+            </form>
+            <p class="main__stipulation"><span class="main__color">*</span> отмечены поля, обязательные для заполнения.</p>
+        </div>
+    </main>
+
+  
+    <script defer src="js/validate-form.js"></script>
+</body>
+
+</html>
